@@ -7,10 +7,10 @@ Installation of a Linux distribution on a virtual machine and prepare it to host
 
 **SSH port- 2200**
 
-**Login with:** == ssh -i ~/.ssh/udacity_key.rsa -p 2200 grader@35.165.147.241 ==
+**Login with:** ~ssh -i ~/.ssh/udacity_key.rsa -p 2200 grader@35.165.147.241 ~
 
 # Generate public Key for udacity_key.rsa :
 
 Go to .ssh folder of your local machine in which you paste your udacity_key.rsa private key.
-type this command :- == ssh-keygen == .Then two keys will be generated RSA and RSA.pub, print the public key .
+type this command :- ~ssh-keygen~ .Then two keys will be generated RSA and RSA.pub, print the public key .
 copy and paste this public key in ==/home/grader/.ssh/authorized_keys== so that reviewer can login into grader account .
